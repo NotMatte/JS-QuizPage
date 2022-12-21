@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Home | Quiz by Matteo Campo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+</head>
+<body onload="loadQuiz()">
+    <h1 style="margin-bottom: -13px;">Quiz cultura generale</h1>
+    <p class="subtitle">Quiz creato da NotMatte.</p>
+    <br>
+
+    <div id="pagina">
+
+        <div class="quiz-container" id="quiz">
+
+            <div class="quiz-header">
+              <h2 id="domanda">In quale città italiana si trova “Piazza di Spagna”?</h2>
+              <ul>
+                <li>
+                  <input type="radio" name="risposta" id="a" class="answer">
+                  <label for="a" id="a_text">Milano</label>
+                </li>
+                <li>
+                  <input type="radio" name="risposta" id="b" class="answer">
+                  <label for="b" id="b_text">Bologna</label>
+                </li>
+                <li>
+                  <input type="radio" name="risposta" id="c" class="answer">
+                  <label for="c" id="c_text">Roma</label>
+                </li>
+                <li>
+                  <input type="radio" name="risposta" id="d" class="answer">
+                  <label for="d" id="d_text">Venezia</label>
+                </li>
+              </ul>
+            </div>
+            
+            <button id="submit">Tenta la sorte</button>
+        </div>
+
+        <div id="risultato">
+            <!-- <div class="risposta-esatta"><p>La risposta è esatta, clicca qui per ricominciare.</p></div>
+            <div class="risposta-errata"><p>La risposta è sbagliata, clicca per ricominciare.</p></div> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

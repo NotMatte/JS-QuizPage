@@ -1,0 +1,151 @@
+html {
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(8,85,99,1) 100%);
+    background-attachment:fixed;
+    height:100%;
+    display: table;
+    margin: auto;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {  
+    font-family: 'Alata';
+    color: white;
+    height:auto;
+    width:auto;
+    display: table-cell;
+    vertical-align: middle;
+  }
+    
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Alata';
+    font-size: 32px;
+  }
+    
+  .subtitle {
+    color: white;
+    text-align: center;
+    font-family: 'Alata';
+    font-size: 15px;
+  }
+
+
+.risposta-esatta{
+    color: rgb(103, 233, 153);
+    background-color: rgba(59, 230, 130, 0.247);
+    border-radius: 12px;
+    margin-top: 20px;
+
+    text-align: center;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.risposta-errata{
+    color: rgb(218, 100, 100);
+    background-color: rgba(226, 85, 85, 0.247);
+    border-radius: 12px;
+    margin-top: 20px;
+    
+    text-align: center;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#pagina{
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.button-errato{
+    background: linear-gradient(90deg, rgb(210, 34, 93) 0%, rgb(134, 10, 31) 68%);
+    color: rgb(241, 163, 163);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Alata';
+    padding: 1.3rem;
+}
+
+.button-giusto{
+    background: linear-gradient(90deg, rgb(34, 210, 107) 0%, rgb(10, 134, 37) 68%);
+    color: rgb(151, 247, 188);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Alata';
+    padding: 1.3rem;
+}
+
+/*-------- Robe Del quiz ---------- */
+
+.quiz-container{
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 100%;
+    overflow: hidden;
+  }
+  .quiz-header{
+    padding: 3rem;
+  }
+  h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: pointer;
+  }
+  #submit{
+    background: linear-gradient(90deg, rgba(34,209,210,1) 0%, rgba(10,110,134,1) 68%);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Alata';
+    padding: 1.3rem;
+  }
+  .submit{
+    background: linear-gradient(90deg, rgb(210, 193, 34) 0%, rgb(134, 111, 10) 68%);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Alata';
+    padding: 1.3rem;
+  }
+  button:hover{
+    background-color: #04adc4;
+  }
+  button:focus{
+    outline: none;
+    background-color: #4adf77;
+  }
