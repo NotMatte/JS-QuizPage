@@ -33,7 +33,7 @@ To create your quiz just add a JSON element to the constant `quizData` using the
 
 ### JSON quizData example
 
-```sh
+```js
 {
         question: "In quale città italiana si trova “Piazza di Spagna”?", /* Question */
         a: "Milano", /* Answer A */
@@ -45,6 +45,19 @@ To create your quiz just add a JSON element to the constant `quizData` using the
 ```
 
 The quizzes will automatically load from the JSON and will be displayed one after another on the main page <br>and then conclude with the page that establishes how many points you have scored.
+
+<div align="center">
+  <img src="img/2.png" alt="Logo" width="70%">
+</div>
+
+
+## Advice before use
+
+Before downloading the files in the repository I would like to warn you that the "img" folder is not needed <br>for the program to function and is an ornamental element for the README page, if it weighs you can remove it easily!
+
+```sh
+Folder = img
+```
 
 
 <div align="center">
